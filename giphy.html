@@ -1,24 +1,32 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/giphy.css">
-    <title>Giphy</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+  <meta charset="utf-8">
+  <title>Giphy</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="giphy.css">
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+</head>
+<body>
+
+
+
+
+ <!-- search box -->
+  <input id="searchtext" type="text" placeholder="Search..">
+    <button id="searchgifs" type="submit" onclick="getData();">Search</button>
+      <div class="inner"></div>
 
 
 
 
 
+  <script src="giphy.js"></script>
+  <script src="plugins.js"></script>
 
-
-
-    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
-            <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
-    <script src="js/giphy.js"></script>
-  </body>
+</body>
 </html>
