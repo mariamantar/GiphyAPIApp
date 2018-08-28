@@ -1,14 +1,10 @@
 // var modernizr = require("modernizr");
-
-
-console.log("hello");
+// console.log("hello");
 
 function getData(){
-
+// search box
 var input = $("#searchtext").val();
-
-
-	//API request
+//API request
 var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=KLtIBMAd1cMGVaZ1U3Ba9g5TRJYTsQMy&limit=30");
 
 
