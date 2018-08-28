@@ -21,3 +21,8 @@ for (i in jiffs)
 }
 	});
 }
+
+// cookies
+Cookies.set('giphy', 'true', { expires: 2});
+
+var myCookie = Cookies.get('giphy');
