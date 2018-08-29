@@ -16,7 +16,10 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
     <!-- cookies -->
   <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
+
 <body class="grey darken-4">
 <!-- navbar -->
   <nav>
@@ -32,13 +35,14 @@
     </div>
   </nav>
   <!-- header -->
-  <h1 class="white-text center bold">GIPHY</h1>
+  <h1 id="title1" class="white-text center bold">GIPHY</h1>
 
  <!-- search box -->
 <div class="container">
 <div class="grey darken-4">
   <input class="white-text" id="searchtext" type="text" placeholder="Search..">
-  <button class="btn waves-effect btn-large purple lighten-2" id="searchgifs" type="submit" onclick="getData();">Search</button> </div>
+  <button class="btn waves-effect purple lighten-2 btn-large " id="searchgifs" type="submit" onclick="getData();">Search</button>
+</div>
 </div>
 <div class="inner"></div>
 
