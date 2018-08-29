@@ -13,7 +13,7 @@ var xhr = $.get("http://api.giphy.com/v1/gifs/search?q="+input+"+&api_key=KLtIBM
 xhr.done(function(response) {
 	console.log("success got data", response);
 	var jiffs = response.data;
-
+$('.inner').empty();
 // loop
 for (i in jiffs)
 {
